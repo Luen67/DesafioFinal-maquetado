@@ -1,5 +1,10 @@
 @import "vars";
 
+.container {
+    margin: 0;
+    padding: 0;
+}
+
 .row>* {
     padding-left: 0;
     padding-right: 0;
@@ -15,134 +20,134 @@ body {
 
 .aside-menu__container {
 
-     .first-icons__container, .second-icons__container, .third-icons__container, .fourth-icons__container {
-          border: none;
-     }
-
-    .btn-first__button {
-        color: blue;
-        margin-bottom: 5px;
+    .first-icons__container, .second-icons__container, .third-icons__container, .fourth-icons__container {
+         border: none;
     }
 
-   .btn-first__button:hover {
-        background-color: blue;
-        color: white;
-        text-decoration: underline;
-        text-decoration-color: white;
+   .btn-first__button {
+       color: blue;
+       margin-bottom: 5px;
    }
 
-   .btn-second__button:hover {
-        background-color: rgb(212, 229, 255);
-        color: rgb(23, 23, 204);
-        text-decoration: underline;
-        text-decoration-color: rgb(0, 0, 94);
-   }
+  .btn-first__button:hover {
+       background-color: blue;
+       color: white;
+       text-decoration: underline;
+       text-decoration-color: white;
+  }
+
+  .btn-second__button:hover {
+       background-color: rgb(212, 229, 255);
+       color: rgb(23, 23, 204);
+       text-decoration: underline;
+       text-decoration-color: rgb(0, 0, 94);
+  }
 
 
-   .card {
-     margin-bottom: 25px;
-   }
+  .card {
+    margin-bottom: 25px;
+  }
 
 
-   .list-group-item, .tags__item {
-        border: none;
-        background-color: rgb(245, 245, 245);
+  .list-group-item, .tags__item {
+       border: none;
+       background-color: rgb(245, 245, 245);
 
-   }
+  }
 
-   .list-group-item:hover {
-     background-color: rgb(212, 229, 255);
-     color: rgb(23, 23, 204);
-     text-decoration: underline;
-     text-decoration-color: rgb(0, 0, 94);
-     cursor: pointer;
-  
-     }
+  .list-group-item:hover {
+    background-color: rgb(212, 229, 255);
+    color: rgb(23, 23, 204);
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 94);
+    cursor: pointer;
+ 
+    }
 
-     .titles__items:hover {
-          background-color: rgb(245, 245, 245);
-          color: black;
-          text-decoration: none;
-          cursor: default;
-        }
+    .titles__items:hover {
+         background-color: rgb(245, 245, 245);
+         color: black;
+         text-decoration: none;
+         cursor: default;
+       }
 
-     .underline__text {
-          .card-title {
-               font-size: 23px;
-               font-weight: bold;
+    .underline__text {
+         .card-title {
+              font-size: 23px;
+              font-weight: bold;
 
-               span {
-                    font-size: 23px;
-                    font-weight: bold;
-                    color: blue;
-                    text-decoration: underline;
-                    text-decoration-color: blue;
-               }    
-               :hover {
-                    cursor: pointer;
-               }
+              span {
+                   font-size: 23px;
+                   font-weight: bold;
+                   color: blue;
+                   text-decoration: underline;
+                   text-decoration-color: blue;
+              }    
+              :hover {
+                   cursor: pointer;
+              }
 
-          }
+         }
 
-          .card__text {
-               font-size: 16px;
-               span {
-                    font-size: 16px;
-                    color: blue;
-                    text-decoration: underline;
-                    text-decoration-color: blue;
-               }
+         .card__text {
+              font-size: 16px;
+              span {
+                   font-size: 16px;
+                   color: blue;
+                   text-decoration: underline;
+                   text-decoration-color: blue;
+              }
 
-               :hover {
-                    cursor: pointer;
-               }
-          }
-          
-          .koala__container:hover {
-               cursor: pointer;
-          }
+              :hover {
+                   cursor: pointer;
+              }
+         }
+         
+         .koala__container:hover {
+              cursor: pointer;
+         }
 
-          img {
-               margin-bottom: 20px;
-          }
-     }
+         img {
+              margin-bottom: 20px;
+         }
+    }
 
-     .background__item {
-          background-color: rgb(245, 245, 245);
-          border: none;
-     }
+    .background__item {
+         background-color: rgb(245, 245, 245);
+         border: none;
+    }
 
-     .footer__text {
+    .footer__text {
 
-          .card-footer__text {
-               font-size: 13px;
-               font-weight: lighter;
-               span {
-                    font-size: 12.5px;
-                    font-weight: bold;
-                    color: blue;
-               }
-               span:hover {
-                    cursor: pointer;
-               }
-          }
+         .card-footer__text {
+              font-size: 13px;
+              font-weight: lighter;
+              span {
+                   font-size: 12.5px;
+                   font-weight: bold;
+                   color: blue;
+              }
+              span:hover {
+                   cursor: pointer;
+              }
+         }
 
-     }
+    }
 
-     .icons__container {
+    .icons__container {
 
-          margin-bottom: 25px;
-          background-color: rgb(245, 245, 245);
+         margin-bottom: 25px;
+         background-color: rgb(245, 245, 245);
 
-          img:hover{
-               background-color: rgb(212, 229, 255);
-               color: rgb(23, 23, 204);
-               text-decoration: underline;
-               text-decoration-color: rgb(0, 0, 94);
-               cursor: pointer;    
-          }
+         img:hover{
+              background-color: rgb(212, 229, 255);
+              color: rgb(23, 23, 204);
+              text-decoration: underline;
+              text-decoration-color: rgb(0, 0, 94);
+              cursor: pointer;    
+         }
 
-     }
+    }
 
 
 }
@@ -371,18 +376,6 @@ body {
 }
 
 .main-post__container {
-    .code-block {
-        background-color: #000000;
-        border-radius: 5px;
-        padding: 15px;
-        border: 1px solid #e1e4e8;
-        margin-top: 20px;
-        overflow: auto;
-      }
-      
-      .code {
-        font-family: 'Courier New', monospace;
-      }
 
 }
 
