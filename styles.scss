@@ -1,5 +1,14 @@
 @import "vars";
 
+.row>* {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
 .header__container {    
     
 }
@@ -135,24 +144,252 @@
 
      }
 
+
 }
 
 .main-principal__container {
-   
+    .nav-underline {
+        --bs-nav-underline-border-width: 0;
+    }
+    .tabs__container {
+        height: 60px;
+        * {
+            font-size: 1.125rem;
+        }
+        .item__tab {
+            padding: 0.25rem;
+            border-radius: 8px;
+            color: #000;
+            a {
+                &:hover{
+                    color:rgb(59, 73, 223);
+                }
+            }
+            .item__link {
+                color: #000;
+            }
+            &:hover {
+                background-color: #fff;
+            }
+        }
+    }
+    .cards__container {
+        .card {
+            padding-bottom: 10px;
+            .card-body {
+                .autor__container {    
+                    .autor__pic {
+                        border-radius: 100%;
+                        width:32px;
+                        height: 32px;
+                        right: 15px;
+                        top: 15px;
+                    }
+                    .post-img__container {
+                        .autor__pic {
+                            border-radius: 0%;
+                            width:32px;
+                            height: 32px;
+                        }
+                        .autor__pic--circle {
+                            border-radius: 100%;
+                            width:32px;
+                            height: 32px;
+                        }
+                        .autor__photo {
+                            border-radius: 100%;
+                            border-style: solid;
+                            border-color: #fff;
+                            width:24px;
+                            height: 24px;
+                            left: 35px;
+                            top: 38px;
+                        }
+                    }
+                    .autor-info__container {
+                        .autor__label {
+                            font-weight: 500;
+                            font-size:0.875rem;
+                            color: rgb(64, 64, 64);
+                            font-family: $fonts-principal;
+                            padding: 0.25rem;
+                            border-radius: 8px;
+                            &:hover {
+                                background-color: #f3f3f3;
+                            }
+                        }
+                        .date__label {
+                            font-size: 0.75rem;
+                            color: rgb( 82, 82, 82);
+                        }
+                    }
+                }
+                .card-title-lg {
+                     font-size: 1.875rem;
+                     font-weight: bold;
+                     font-family: $fonts-principal;
+                     &:hover{
+                        color:rgb(59, 73, 223);
+                     }
+                }
+                .card-subtitle-lg {
+                     font-size: 1.5rem;
+                     font-weight: bold;
+                     font-family: $fonts-principal;
+                     &:hover{
+                        color:rgb(59, 73, 223);
+                        cursor: pointer;
+                     }
+                }
+                .card-title-sm {
+                    font-size: 1.25rem;
+                     font-weight: bold;
+                     font-family: $fonts-principal;
+                     &:hover{
+                        color:rgb(59, 73, 223);
+                        cursor: pointer;
+                     }
+                }
+                .tags__container {
+                    .li__green {
+                        background-color: #1ad6431a;
+                        .green__tag {
+                            color:#1ad643;
+                        }
+                        &:hover {
+                            border-color: #1ad643;
+                            background-color: #1ad6431a;
+                        }
+                    }
+                    li {
+                        font-size: 0.875rem;
+                        padding: 0.25rem;
+                        border-radius: 8px;
+                        border: 1px solid;
+                        border-color: #fff;
+                        &:hover {
+                            background-color: #f3f3f3;
+                            border: 1px solid;
+                            border-color: #b4afaf;
+                        }
+                    }
+                }
+            }
+            .info__container {
+                .detail__container {
+                    .reactions__link {
+                        padding: 0.25rem;
+                        border-radius: 8px;
+                        .reactions-pic__container {
+                            border-radius: 100%;
+                            background-color: rgb(245, 245, 245);
+                            border: 2px solid rgb(245, 245, 245);
+                            width: 28px;
+                            height: 28px;
+                        }
+                        .reaction__pic--front {
+                            z-index: 5;                           
+                        }
+                        .reaction__pic--back {
+                            z-index: 4;      
+                            right: 10px;                            
+                        }
+                        .reaction__pic--back-2 {
+                            z-index: 3;
+                            right: 20px;
+                        }
+                        .reaction__pic--back-3 {
+                            z-index: 2;
+                            right: 30px;
+                        }
+                        .reaction__pic--back-4 {
+                            z-index: 1;
+                            right: 40px;
+                        }
+                        .reactions__label {
+                            font-size: 0.875rem;
+                        }
+                        &:hover {
+                            background-color: #f3f3f3;
+                        }
+                    }
+                    .comments__link {
+                        font-size: 0.875rem;
+                        padding: 0.25rem;
+                        border-radius: 8px;
+                        &:hover {
+                            background-color: #f3f3f3;
+                        }
+                    }
+                }
+                .time__container {
+                    .min-read__container {
+                        font-size: 0.75rem;
+                    }
+                    .bookmark__pic {
+                        padding: 0.25rem;
+                        border-radius: 5px;
+                        &:hover {
+                            background-color: rgb(59, 73, 223, 0.1);
+                        }
+                     }
+                }
+            }
+            .comments__container {
+                .comment__container {
+                    .autor-comment__pic {
+                        border-radius: 100%;
+                        width:24px;
+                        height: 24px;
+                    }
+                    .comment-detail__container {
+                         background-color: rgb(245, 245, 245);
+                        * {
+                            font-size: 0.875rem;
+                        }
+                    }
+                }
+            }
+            .all-comments__container {
+                .all-comments__text {
+                    font-size: 0.875rem;
+                }
+            }
+        }        
+        &:hover {
+            cursor: pointer;
+        }
+    }
 } 
 
-.side-left-principal__container {
+.aside-right-principal__container {
 
 }
 
-.side-left__container {
+.aside-left-post__container {
 
 }
 
 .main-post__container {
+    .code-block {
+        background-color: #000000;
+        border-radius: 5px;
+        padding: 15px;
+        border: 1px solid #e1e4e8;
+        margin-top: 20px;
+        overflow: auto;
+      }
+      
+      .code {
+        font-family: 'Courier New', monospace;
+      }
 
 }
 
 .side-right-post__container {
     
+}
+
+.footer__container {
+
 }
