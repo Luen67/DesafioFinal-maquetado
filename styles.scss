@@ -21,6 +21,18 @@
 }
 
 .main-post__container {
+    .code-block {
+        background-color: #000000;
+        border-radius: 5px;
+        padding: 15px;
+        border: 1px solid #e1e4e8;
+        margin-top: 20px;
+        overflow: auto;
+      }
+      
+      .code {
+        font-family: 'Courier New', monospace;
+      }
 
 }
 
