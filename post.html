@@ -3,19 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>POST</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="header__container"></header>
     <div class="container">
         <div class="row">
-            <aside class="aside-left-post__container"></aside>
+            <aside class="aside-left-post__container d-flex">
+
+            </aside>
             <main class="main-post__container"></main>
-            <aside class="aside-right-post__container"></aside>
+            <aside class="aside-right-post__container d-flex">
+                <section class="info__user gap-2">
+                    <div class="card" style="width: 18rem;  border-top: 30px solid #010b1b;">
+                        <div class="info__nameUser d-flex ">
+                            <img src="./src/perfil-user.webp" class="card-img-top rounded-circle mx-3" style="width: 48px; height: 48px; margin-top: -20px;" alt="...">
+                            <h5 class="card-title">chantastic</h5>
+                        </div>
+                        <div class="card-body">
+                        <div class="d-grid gap-2">
+                            <button href="#" class="btn btn-outline-secondary ">Following</button>
+                        </div>
+                        <p class="card-text my-2">software explorer</p>
+                        <span class="fw-bold text-body-secondary">WORK</span>
+                        <p>Host and Producer at React Podcast</p>
+                        <span class="fw-bold text-body-secondary">JOINED</span>
+                        <p>24 dic 2017</p>
+                        </div>
+                    </div>
+                </div>
+                </section>
+                <section>
+                <div class="info__extra mt-3">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="card_tittle d-flex">
+                                <h5 class="card-title">More from </h5> <h5 class="card-tittle text-primary mx-1"> chantastic</h5>
+                                <div class="d-grid gap-2">
+                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="col my-1" style="width: 18rem; margin:0 ;border-bottom: 1px solid rgb(239, 239, 239);">
+                           <span class="my-2">Add Lucide Icons to Astro</span>
+                           <div class="text-secondary my-1 ">
+                            <span class="me-1">#astro</span> <span class="me-1">#svg</span><span class="me-1">#webdev</span><span class="me-1">#coding</span>
+                           </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                            <div class="col my-2" style="width: 18rem; border-bottom: 1px solid rgb(239, 239, 239);">
+                               <span class="my-1">Embed YouTube videos responsively</span>
+                               <div class="text-secondary my-1">
+                                <span class="me-1">#webdev</span> <span class="me-1">#css</span><span class="me-1">#blog</span><span class="me-1">#socialmedia</span>
+                               </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                                <div class="col my-2" style="width: 18rem;">
+                                   <span class="my-1">Comprenhending YAML</span>
+                                   <div class="text-secondary ">
+                                    <span class="me-1">#yaml</span> <span class="me-1">#webdev</span>
+                                   </div>
+                                </div>
+                            </div>       
+                </section>
+                <section>
+                    <div class="card my-3" style="width: 18rem;">
+                        <div class="info__anuncios d-flex ">
+                          <span class="text-dark m-3 col "> DEV Community</span> <img src="./src/puntos.svg" alt="" class="me-3">
+                        </div>
+                        <div class="card-body">
+                        <div class="d-grid gap-2">
+                        </div>
+                        <h3 class="card-text my-2  fw-bold" style="color: #525252;">   👋 Want more relevant content on DEV?</h3>
+                        <span class="fw-bold text-body-secondary fs-5">It's simple!</span>
+                        <p class="m-0">Go into your <a href="">settings</a>  and set your</p> <p class="fw-bold" style="color: #525252;">experience level.</p>
+                        <p>You will begin seeing slightly more appropriate content for your level.</p>
+                        </div>
+                    </div>
+                </div>
+                </section>
+            </aside>
         </div>
     </div>
     <footer class="footer__container"></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
