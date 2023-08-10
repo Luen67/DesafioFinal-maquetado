@@ -1,7 +1,18 @@
 .header__container .button__create {
-  background-color: rgb(212, 229, 255);
-  color: rgb(23, 23, 204);
-  text-decoration: underline;
-  text-decoration-color: rgb(0, 0, 94);
-  cursor: pointer;
+  height: 45px;
+  width: 140px;
+}
+.header__container .site-logo__img {
+  height: 40px;
+  width: 50px;
+}
+.header__container .batman__circulo {
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+}
+.header__container .campana {
+  height: 59px;
+  width: 59px;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=styles.css.map */

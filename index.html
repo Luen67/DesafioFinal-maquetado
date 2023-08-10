@@ -18,26 +18,38 @@
   </head>
   <body>
     <header class="header__container">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary me-5">
-        <div class="container-fluid">
-          <a href="/" class="site-logo" aria-label="DEV Community Home">
-            <img
-              class="site-logo__img"
-              src="https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png"
-              alt="DEV Community"
-            />
-          </a>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control me-5" placeholder="Search..." aria-label="Recipient's username" aria-describedby="button-addon2">
-            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Lupa</button>
-            <button class="button__create mx-2 rounded-pill">Create Post</button>
-            <button class="mx-2">campana</button>
-            <button class="mx-2">circulo</button>
+      <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid d-flex align-items-center">
+              <div class="d-flex align-items-center">
+                <button class="btn btn-outline-success d-block d-md-none d-lg-none" type="submit" style="border:none; ">
+                  <img src="./src/hamburger.svg" alt="">
+                </button>
+                  <a class="navbar-brand" href="#">
+                    <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png" alt="Logo" width="50" height="40" class="d-inline-block align-text-top">
+                  </a>
+                  <div class="search__container d-none d-lg-block d-md-block" style="width: 420px;">
+                      <form class="d-flex position-relative" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                        <button class="btn btn-outline-success position-relative" type="submit" style="border:none; right: 55px;">
+                          <img src="src/search.svg" alt="">
+                        </button>
+                      </form>
+                  </div>
+              </div>
+              <div class="d-flex">
+                <button class="btn btn-outline-success d-block d-md-none d-lg-none" type="submit" style="border:none; ">
+                  <img src="src/search.svg" alt="">
+                </button>
+              <form class="container-fluid justify-content-start d-none d-md-block d-lg-block">
+                <button type="button" class="btn btn-outline-primary">Create Post</button>
+              </form>
+              <img src="src/notification.svg" alt="" class="me-2" style="width:35px; height:35px;">
+              <img style="width: 35px; height: 35px; border-radius: 100%; border-color:black; border:1px solid;" src="https://res.cloudinary.com/practicaldev/image/fetch/s--5A6wDr1l--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/1135488/fabde113-8c15-4ad5-bc65-907a26e4d145.png" alt="">
+              </div>
           </div>
-
-          </div>
-      </nav>
-    </header>
+        </nav>
+  </header>
+    
     <div class="container">
       <div class="row">
         <aside class="aside-menu__container"></aside>
