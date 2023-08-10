@@ -31,5 +31,12 @@
 }
 
 .footer__container {
-     
+    .no__point {
+            list-style:none;
+         } 
+    
+         span, li{
+          color: blue;  
+          
+         }
 }

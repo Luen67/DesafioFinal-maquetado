@@ -1,1 +1,6 @@
-/*# sourceMappingURL=styles.css.map */
+.footer__container .no__point {
+  list-style: none;
+}
+.footer__container span, .footer__container li {
+  color: blue;
+}/*# sourceMappingURL=styles.css.map */
