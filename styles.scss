@@ -1,7 +1,15 @@
 @import "vars";
 
 .header__container {    
-    
+    .button__create {
+     background-color: rgb(212, 229, 255);
+     color: rgb(23, 23, 204);
+     text-decoration: underline;
+     text-decoration-color: rgb(0, 0, 94);
+     cursor: pointer;
+     
+    }
+
 }
 
 .aside-menu__container {
@@ -13,6 +21,7 @@
 } 
 
 .aside-right-principal__container {
+    
 
 }
 
@@ -25,9 +34,9 @@
 }
 
 .side-right-post__container {
-    
+        
 }
 
 .footer__container {
-
+     
 }
