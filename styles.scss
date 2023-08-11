@@ -368,8 +368,36 @@ body {
 } 
 
 .aside-right-principal__container {
+    .color__blue {
+        color: blue;
+        font-weight: 500;
+    }
+
+    span
+     {
+        font-weight: 500;  
+    }
+
+    p{
+        font-size: 13px;
+    }
+
+    a:hover{
+        color: blue;
+    }
+
+    .color__gold {
+        background-color: goldenrod;
+        font-size: 13px;
+    }
+
+    .margin__card {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 
 }
+
 
 .aside-left-post__container {
 
