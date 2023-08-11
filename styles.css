@@ -1,1 +1,21 @@
-/*# sourceMappingURL=styles.css.map */
+.aside-right-principal__container .color__blue {
+  color: blue;
+  font-weight: 500;
+}
+.aside-right-principal__container span {
+  font-weight: 500;
+}
+.aside-right-principal__container p {
+  font-size: 13px;
+}
+.aside-right-principal__container a:hover {
+  color: blue;
+}
+.aside-right-principal__container .color__gold {
+  background-color: goldenrod;
+  font-size: 13px;
+}
+.aside-right-principal__container .margin__card {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}/*# sourceMappingURL=styles.css.map */
