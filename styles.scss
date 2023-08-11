@@ -18,13 +18,39 @@
 
 .aside-left-post__container {
 
+    .icon__color{
+        
+        .icon-heart:hover{
+            color: red;
+        }
+        .icon-message:hover{
+            color: yellow;
+        }
+        .icon-mark:hover{
+            color: hotpink;
+        }
+
+    }
+
+    
 }
 
 .main-post__container {
-
+ .more__info .row:hover .fs-4,
+ .more__info .row:hover .opacity-75 {
+    color: rgb(59, 73, 223);
+    cursor: pointer;
+}
 }
 
-.side-right-post__container {
+.aside-right-post__container {
+   
+    @media (max-width: 768px) { 
+        .custom-aside {
+            margin-left: 3rem;
+        }
+    }
+    
     
 }
 

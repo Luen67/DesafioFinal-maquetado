@@ -1,1 +1,44 @@
-/*# sourceMappingURL=styles.css.map */
+
+
+.aside-left-post__container  .icon-heart:hover {
+  color: red;
+}
+.aside-left-post__container .icon__color .icon-message:hover {
+  color: yellow;
+}
+.aside-left-post__container .icon__color .icon-mark:hover {
+  color: hotpink;
+}
+.aside-right-post__container .card__anuncio {
+  position: sticky;
+  top: 20px; 
+  z-index: 100; 
+ 
+}
+
+@media (min-width: 768px) {
+  .main-post__container {
+    margin-left: 5rem;
+  }
+}
+.main-post__container .more__info .row:hover .fs-4,
+.main-post__container .more__info .row:hover .opacity-75 {
+  color: rgb(59, 73, 223);
+  cursor: pointer;
+}
+
+@media (max-width: 769px) {
+  .aside-right-post__container {
+    margin-left: 0rem;
+  }
+}
+@media (max-width: 768px) {
+  .aside-right-post__container {
+    margin-left: 5rem;
+  }
+}
+@media (max-width: 320px) {
+  .aside-right-post__container {
+    margin-left: 0rem;
+  }
+}
